@@ -13,7 +13,7 @@
 <b> How to run it: </b>
 
 <ol>
-  <li>.......</li>
-  <li> ........</li>
-  <li>............ </li>
+  <li>Download the git folder - Design of Sender and Receiver, and make sure you're in the folder. If you do ls you should have Makefile, msg.h, recv.cpp, sender.cpp</li>
+  <li>Open another terminal and do the same thing. This is important because one is the receiver and one is the sender.</li>
+  <li>vv</li>
 </ol>
