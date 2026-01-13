@@ -15,5 +15,7 @@
 <ol>
   <li>Download the git folder - Design of Sender and Receiver, and make sure you're in the folder. If you do ls you should have Makefile, msg.h, recv.cpp, sender.cpp</li>
   <li>Open another terminal and do the same thing. This is important because one is the receiver and one is the sender.</li>
-  <li>vv</li>
+  <li>In one terinal you type ./recv and you'll see that nothing has changed. But if go to the second terminal and type ls you'll see there's a keyfile.txt</li>
+  <li>In the second terminal, you'll type ./sender keytext.file , then you'll get "The number of bytes sent is 11"</li>
+  <li>After this you can go back to your first terminal and control C to terminate the program</li>
 </ol>
