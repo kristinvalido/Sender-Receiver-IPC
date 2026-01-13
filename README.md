@@ -1,7 +1,7 @@
 # Sender-Receiver-IPC
 <b>CPSC 351 - 01 Project 1</b>
 
-<u>Team Members: </u> <br>
+<ins>Team Members: </ins>
 <br>Ricardo Rodriguez - rvrodriguez2000@gmail.com
 <br>Bonnie Yang - bonnie121024@csu.fullerton.edu
 <br>James Ruiz - jruiz21@csu.fullerton.edu
