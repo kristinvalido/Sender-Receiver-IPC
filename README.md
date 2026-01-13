@@ -19,3 +19,6 @@
   <li>In the second terminal, you'll type ./sender keytext.file , then you'll get "The number of bytes sent is 11"</li>
   <li>After this you can go back to your first terminal and control C to terminate the program</li>
 </ol>
+
+<b>NOTE:</b>
+<p>The pdf that is being turned in along with the zip file contains a drawn out demonstartion of how it works a long with screenshots of our program running.</p>
