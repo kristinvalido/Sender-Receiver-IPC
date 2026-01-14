@@ -10,7 +10,7 @@
 <b>Project Description: </b>
 <br>Using our knowledge of shared memory and message queues in order to implement an application which synchronously transfers files between two processes. Implementing two related programs: a sender program and the receiver program.
 
-<b> How to run it: </b>
+<b> How to run it: this was ran on Linux platform, please download the source code from this Git</b>
 
 <ol>
   <li>Download the git folder - Design of Sender and Receiver, and make sure you're in the folder. If you do ls you should have Makefile, msg.h, recv.cpp, sender.cpp</li>
@@ -19,6 +19,15 @@
   <li>In the second terminal, you'll type ./sender keytext.file , then you'll get "The number of bytes sent is 11"</li>
   <li>After this you can go back to your first terminal and control C to terminate the program</li>
 </ol>
+
+Split Work: <br>
+<ul>
+  <li>recv.cpp - Ricardo, Bonnie </li>
+  <li>sender.cpp - Ricardo, James, Kristin </li>
+  <li>Git - Kristin, Ricardo</li>
+  <li>Diagram - Kristin Ricardo</li>
+</ul>
+
 
 <b>NOTE:</b>
 <p>The pdf that is being turned in along with the zip file contains a drawn out demonstartion of how it works a long with screenshots of our program running.</p>
