@@ -5,7 +5,6 @@
 #include <unistd.h>
 #include <string.h>
 #include "msg.h"    /* For the message struct */
-// NOTE: Not sure if we need this header. Its for S_IRUSR | S_IWUSR
 #include <sys/stat.h>
 /* The size of the shared memory segment */
 #define SHARED_MEMORY_CHUNK_SIZE 1000
@@ -85,8 +84,7 @@ void cleanUp(const int& shmid, const int& msqid, void* sharedMemPtr)
 	if (shmdt(sharedMemPtr) < 0) {
         perror("shmdt");
     }
-	// NOTE: Ricardo - I'm not sure if I need to include the other clean uo funcs because it says to only detach from shared memory
-	// but there are 3 params and the recv.cpp had me deallocate all 3. 
+	
 	
 }
 
@@ -232,3 +230,4 @@ int main(int argc, char** argv)
 		
 	return 0;
 }
+
