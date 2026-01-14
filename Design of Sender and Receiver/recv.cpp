@@ -6,7 +6,6 @@
 #include <unistd.h>
 #include <string>
 #include "msg.h"    /* For the message struct */
-// NOTE: Not sure if we need this header. Its for S_IRUSR | S_IWUSR
 #include <sys/stat.h>
 using namespace std;
 
@@ -143,9 +142,6 @@ unsigned long mainLoop(const char* fileName)
 		 * the shared memory segment to the file. Otherwise, if 0, then we close the file 
 		 * and exit.
 		 *
-		 * NOTE: the received file will always be saved into the file called
-		 * <ORIGINAL FILENAME__recv>. For example, if the name of the original
-		 * file is song.mp3, the name of the received file is going to be song.mp3__recv.
 		 */
 		message msg; 
 		if (msgrcv(msqid, &msg, sizeof(msg) - sizeof(long), SENDER_DATA_TYPE, 0) < 0) {
@@ -246,3 +242,4 @@ int main(int argc, char** argv)
 	cleanUp(shmid, msqid, sharedMemPtr);
 	return 0;
 }
+
